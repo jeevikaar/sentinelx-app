@@ -1,3 +1,241 @@
+# 🛡️ SentinelX – Smart Personal Safety & Emergency Alert System
+
+SentinelX is an AI-powered personal safety and emergency response application designed to provide immediate assistance during emergency situations. The system enables users to send SOS alerts with a single tap, share their live location with trusted contacts, and notify emergency responders. By leveraging modern web technologies, SentinelX aims to reduce response time, improve communication, and enhance personal safety.
+
+---
+
+## 📌 Features
+
+### 👤 User Module
+- Secure User Registration and Login
+- User Profile Management
+- One-Tap SOS Alert
+- Live Location Sharing
+- Emergency Contact Management
+- SOS Alert History
+- Real-Time Alert Status
+
+### 🚨 Emergency Features
+- Instant SOS Notification
+- GPS-Based Live Location Tracking
+- Emergency Contact Alerts
+- Real-Time Emergency Updates
+- Quick Access to Help
+
+### 👨‍💼 Admin Module
+- Secure Admin Login
+- User Management
+- Monitor Active SOS Alerts
+- Alert History Management
+- System Dashboard
+- Database Monitoring
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Spring Boot
+- Java
+- REST APIs
+
+### Database
+- MySQL
+
+### Tools & Platforms
+- Visual Studio Code
+- IntelliJ IDEA
+- Postman
+- MySQL Workbench
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+SentinelX/
+│── frontend/
+│   ├── React Components
+│   ├── Pages
+│   ├── Assets
+│   └── Services
+│
+│── backend/
+│   ├── Controllers
+│   ├── Models
+│   ├── Repositories
+│   ├── Services
+│   ├── Config
+│   └── Resources
+│
+│── database/
+│── screenshots/
+│── README.md
+```
+
+---
+
+## 🚀 Features Implemented
+
+- User authentication
+- Spring Boot backend setup
+- MySQL database integration
+- REST API development
+- SOS alert module
+- Emergency contact management
+- Live location support
+- Alert data storage
+- Admin dashboard (basic)
+- Responsive user interface
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/SentinelX.git
+cd SentinelX
+```
+
+---
+
+### 2. Create MySQL Database
+
+```sql
+CREATE DATABASE sentinelx;
+```
+
+---
+
+### 3. Configure Database
+
+Update the `application.properties` file:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/sentinelx
+spring.datasource.username=root
+spring.datasource.password=your_password
+
+spring.jpa.hibernate.ddl-auto=update
+```
+
+---
+
+### 4. Run Backend
+
+```bash
+cd backend
+mvn clean install
+java -jar target/backend-0.0.1-SNAPSHOT.jar
+```
+
+Backend runs at:
+
+```
+http://localhost:8080
+```
+
+---
+
+### 5. Run Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Frontend runs at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📸 Application Modules
+
+### 🔐 Authentication
+- User Registration
+- User Login
+
+### 🏠 Dashboard
+- User Information
+- Emergency Contacts
+- SOS Button
+- Safety Features
+
+### 🚨 SOS Alert
+- One-Tap Emergency Alert
+- Live GPS Location
+- Alert Status
+- Emergency Contact Notification
+
+### 📍 Live Tracking
+- Real-Time Location Sharing
+- Route Monitoring
+
+### 👨‍💼 Admin Dashboard
+- User Management
+- Active Alerts
+- Alert History
+- System Monitoring
+
+---
+
+## 🎯 Applications
+
+- Personal Safety
+- Women's Safety
+- Student Safety
+- Senior Citizen Assistance
+- Emergency Response Systems
+- Smart City Safety Solutions
+
+---
+
+## 🚀 Future Enhancements
+
+- AI-Based Threat Detection
+- Voice-Activated SOS
+- Wearable Device Integration
+- Real-Time Chat with Emergency Responders
+- Push Notifications
+- Offline SOS Support
+- Emergency Service Integration
+- Predictive Risk Analysis
+- Mobile Application (Android & iOS)
+
+---
+
+## 👨‍💻 Team Members
+
+- Jeevika R
+- Team Members
+
+**Department:** Computer Science and Engineering  
+**Institution:** Rajalakshmi Institute of Technology
+
+---
+
+## 📄 License
+
+This project is developed for academic and educational purposes.
+
+---
+
+## ⭐ Acknowledgements
+
+We thank our faculty mentors and teammates for their continuous guidance and support throughout the development of SentinelX.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

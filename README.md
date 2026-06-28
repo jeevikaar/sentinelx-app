@@ -220,7 +220,7 @@ http://localhost:3000
 ## 👨‍💻 Team Members
 
 - Jeevika R
-- Team Members
+- HARINI P, KARON JOANNA S, KARTHIGA A
 
 **Department:** Computer Science and Engineering  
 **Institution:** Rajalakshmi Institute of Technology
